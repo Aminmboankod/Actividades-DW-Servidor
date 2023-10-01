@@ -1,0 +1,51 @@
+        /* Estilos para la tabla */
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #f0f5ff; 
+        }
+
+      
+        th {
+            background-color: #3385ff; 
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ccc; 
+        }
+
+        /* Estilo para filas impares*/
+        tr:nth-child(odd) {
+            background-color: #e6f0ff; 
+        }
+
+        td {
+            text-align: center;
+        }
+
+        /* Estilos para la card */
+        .card {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+        }
+
+        .card p {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        .card strong {
+            font-weight: bold;
+        }
