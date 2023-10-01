@@ -89,7 +89,7 @@
 
             unset($var);
             echo "<tr>
-                    <td>" . var_export($var, true) . "</td>
+                    <td>" . "unset(\$var)" . "</td>
                     <td>" . var_export(isset($var), true) . "</td>
                     <td>" . var_export(empty($var), true) . "</td>
                     <td>" . var_export((bool)$var, true) . "</td>
